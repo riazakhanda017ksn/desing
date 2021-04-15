@@ -1,6 +1,8 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Blog from '../Blog/Blog';
+import Footer from '../Footer/Footer';
+import HomePageLogIn from '../HomePageLogIn/HomePageLogIn';
 import Navbar from '../Navbar/Navbar';
 import Professional from '../Professional/Professional';
 import Service from '../Service/Service';
@@ -20,6 +22,8 @@ const Header = () => {
             <Professional></Professional>
             <Testomonial></Testomonial>
             <Blog></Blog>
+            <HomePageLogIn></HomePageLogIn>
+            <Footer></Footer>
         </div>
     );
 };
